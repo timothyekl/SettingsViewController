@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		225C4B35131F7CF600F50575 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225C4B34131F7CF600F50575 /* UIKit.framework */; };
+		225C4B37131F7CF600F50575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225C4B36131F7CF600F50575 /* Foundation.framework */; };
+		225C4B39131F7CF600F50575 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225C4B38131F7CF600F50575 /* CoreGraphics.framework */; };
+		225C4B3F131F7CF600F50575 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 225C4B3D131F7CF600F50575 /* InfoPlist.strings */; };
+		225C4B42131F7CF600F50575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 225C4B41131F7CF600F50575 /* main.m */; };
+		225C4B45131F7CF600F50575 /* SettingsViewControllerDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 225C4B44131F7CF600F50575 /* SettingsViewControllerDemoAppDelegate.m */; };
+		225C4B48131F7CF600F50575 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225C4B46131F7CF600F50575 /* MainWindow.xib */; };
+		225C4B4B131F7CF600F50575 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225C4B4A131F7CF600F50575 /* RootViewController.m */; };
+		225C4B4E131F7CF600F50575 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 225C4B4C131F7CF600F50575 /* RootViewController.xib */; };
+		22FD32E6131F7D450087111F /* MutableOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD32E1131F7D450087111F /* MutableOrderedDictionary.m */; };
+		22FD32E7131F7D450087111F /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD32E3131F7D450087111F /* Setting.m */; };
+		22FD32E8131F7D450087111F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD32E5131F7D450087111F /* SettingsViewController.m */; };
+		22FD32EB131F7E5D0087111F /* PrimarySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD32EA131F7E5D0087111F /* PrimarySettingsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		225C4B30131F7CF600F50575 /* SettingsViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettingsViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		225C4B34131F7CF600F50575 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		225C4B36131F7CF600F50575 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		225C4B38131F7CF600F50575 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		225C4B3C131F7CF600F50575 /* SettingsViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SettingsViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		225C4B3E131F7CF600F50575 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		225C4B40131F7CF600F50575 /* SettingsViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SettingsViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		225C4B41131F7CF600F50575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		225C4B43131F7CF600F50575 /* SettingsViewControllerDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewControllerDemoAppDelegate.h; sourceTree = "<group>"; };
+		225C4B44131F7CF600F50575 /* SettingsViewControllerDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewControllerDemoAppDelegate.m; sourceTree = "<group>"; };
+		225C4B47131F7CF600F50575 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		225C4B49131F7CF600F50575 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		225C4B4A131F7CF600F50575 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		225C4B4D131F7CF600F50575 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		22FD32E0131F7D450087111F /* MutableOrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableOrderedDictionary.h; sourceTree = SOURCE_ROOT; };
+		22FD32E1131F7D450087111F /* MutableOrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableOrderedDictionary.m; sourceTree = SOURCE_ROOT; };
+		22FD32E2131F7D450087111F /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = SOURCE_ROOT; };
+		22FD32E3131F7D450087111F /* Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setting.m; sourceTree = SOURCE_ROOT; };
+		22FD32E4131F7D450087111F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = SOURCE_ROOT; };
+		22FD32E5131F7D450087111F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = SOURCE_ROOT; };
+		22FD32E9131F7E5D0087111F /* PrimarySettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimarySettingsViewController.h; sourceTree = "<group>"; };
+		22FD32EA131F7E5D0087111F /* PrimarySettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimarySettingsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		225C4B2D131F7CF600F50575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225C4B35131F7CF600F50575 /* UIKit.framework in Frameworks */,
+				225C4B37131F7CF600F50575 /* Foundation.framework in Frameworks */,
+				225C4B39131F7CF600F50575 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		225C4B25131F7CF600F50575 = {
+			isa = PBXGroup;
+			children = (
+				225C4B3A131F7CF600F50575 /* SettingsViewControllerDemo */,
+				225C4B33131F7CF600F50575 /* Frameworks */,
+				225C4B31131F7CF600F50575 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		225C4B31131F7CF600F50575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				225C4B30131F7CF600F50575 /* SettingsViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		225C4B33131F7CF600F50575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				225C4B34131F7CF600F50575 /* UIKit.framework */,
+				225C4B36131F7CF600F50575 /* Foundation.framework */,
+				225C4B38131F7CF600F50575 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		225C4B3A131F7CF600F50575 /* SettingsViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				22FD32DE131F7D2E0087111F /* SettingsViewController */,
+				225C4B43131F7CF600F50575 /* SettingsViewControllerDemoAppDelegate.h */,
+				225C4B44131F7CF600F50575 /* SettingsViewControllerDemoAppDelegate.m */,
+				225C4B46131F7CF600F50575 /* MainWindow.xib */,
+				225C4B49131F7CF600F50575 /* RootViewController.h */,
+				225C4B4A131F7CF600F50575 /* RootViewController.m */,
+				225C4B4C131F7CF600F50575 /* RootViewController.xib */,
+				22FD32E9131F7E5D0087111F /* PrimarySettingsViewController.h */,
+				22FD32EA131F7E5D0087111F /* PrimarySettingsViewController.m */,
+				225C4B3B131F7CF600F50575 /* Supporting Files */,
+			);
+			path = SettingsViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		225C4B3B131F7CF600F50575 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				225C4B3C131F7CF600F50575 /* SettingsViewControllerDemo-Info.plist */,
+				225C4B3D131F7CF600F50575 /* InfoPlist.strings */,
+				225C4B40131F7CF600F50575 /* SettingsViewControllerDemo-Prefix.pch */,
+				225C4B41131F7CF600F50575 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22FD32DE131F7D2E0087111F /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				22FD32E0131F7D450087111F /* MutableOrderedDictionary.h */,
+				22FD32E1131F7D450087111F /* MutableOrderedDictionary.m */,
+				22FD32E2131F7D450087111F /* Setting.h */,
+				22FD32E3131F7D450087111F /* Setting.m */,
+				22FD32E4131F7D450087111F /* SettingsViewController.h */,
+				22FD32E5131F7D450087111F /* SettingsViewController.m */,
+			);
+			name = SettingsViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		225C4B2F131F7CF600F50575 /* SettingsViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 225C4B51131F7CF600F50575 /* Build configuration list for PBXNativeTarget "SettingsViewControllerDemo" */;
+			buildPhases = (
+				225C4B2C131F7CF600F50575 /* Sources */,
+				225C4B2D131F7CF600F50575 /* Frameworks */,
+				225C4B2E131F7CF600F50575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SettingsViewControllerDemo;
+			productName = SettingsViewControllerDemo;
+			productReference = 225C4B30131F7CF600F50575 /* SettingsViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		225C4B27131F7CF600F50575 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 225C4B2A131F7CF600F50575 /* Build configuration list for PBXProject "SettingsViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 225C4B25131F7CF600F50575;
+			productRefGroup = 225C4B31131F7CF600F50575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				225C4B2F131F7CF600F50575 /* SettingsViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		225C4B2E131F7CF600F50575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225C4B3F131F7CF600F50575 /* InfoPlist.strings in Resources */,
+				225C4B48131F7CF600F50575 /* MainWindow.xib in Resources */,
+				225C4B4E131F7CF600F50575 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		225C4B2C131F7CF600F50575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225C4B42131F7CF600F50575 /* main.m in Sources */,
+				225C4B45131F7CF600F50575 /* SettingsViewControllerDemoAppDelegate.m in Sources */,
+				225C4B4B131F7CF600F50575 /* RootViewController.m in Sources */,
+				22FD32E6131F7D450087111F /* MutableOrderedDictionary.m in Sources */,
+				22FD32E7131F7D450087111F /* Setting.m in Sources */,
+				22FD32E8131F7D450087111F /* SettingsViewController.m in Sources */,
+				22FD32EB131F7E5D0087111F /* PrimarySettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		225C4B3D131F7CF600F50575 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225C4B3E131F7CF600F50575 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		225C4B46131F7CF600F50575 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225C4B47131F7CF600F50575 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		225C4B4C131F7CF600F50575 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225C4B4D131F7CF600F50575 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		225C4B4F131F7CF600F50575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		225C4B50131F7CF600F50575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		225C4B52131F7CF600F50575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SettingsViewControllerDemo/SettingsViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "SettingsViewControllerDemo/SettingsViewControllerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		225C4B53131F7CF600F50575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SettingsViewControllerDemo/SettingsViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "SettingsViewControllerDemo/SettingsViewControllerDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		225C4B2A131F7CF600F50575 /* Build configuration list for PBXProject "SettingsViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225C4B4F131F7CF600F50575 /* Debug */,
+				225C4B50131F7CF600F50575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		225C4B51131F7CF600F50575 /* Build configuration list for PBXNativeTarget "SettingsViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225C4B52131F7CF600F50575 /* Debug */,
+				225C4B53131F7CF600F50575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 225C4B27131F7CF600F50575 /* Project object */;
+}
