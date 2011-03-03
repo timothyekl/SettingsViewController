@@ -17,12 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _tableRows = 0;
+    self.tableRows = 5;
+    
+    self.navigationItem.title = @"Row indices";
     self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Settings" style:UIBarButtonItemStyleBordered target:self action:@selector(showSettings)] autorelease];
 }
 
 - (void)showSettings {
     PrimarySettingsViewController * psvc = [[[PrimarySettingsViewController alloc] initWithNibName:@"SettingsViewController" bundle:nil] autorelease];
+    psvc.rootViewController = self;
+    UINavigationController * navController = [[[UINavigationController alloc] initWithRootViewController:psvc] autorelease];
+    [self presentModalViewController:navController animated:YES];
 }
 
 // Customize the number of sections in the table view.
@@ -31,7 +36,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return _tableRows;
+    return self.tableRows;
 }
 
 // Customize the appearance of table view cells.
