@@ -1,4 +1,4 @@
-= SettingsViewController =
+# SettingsViewController
 
 Tim Ekl, 2011
 
@@ -16,7 +16,7 @@ This project is still young and is deliberately meant to be simple, and so
 is notably missing several features supported by the Apple Settings app or
 other in-app settings implementations. Contributions are welcome.
 
-== Adding a SettingsViewController to your app ==
+## Adding a SettingsViewController to your app
 
 Placing a SettingsViewController in your application is as simple as one
 class and one method. After cloning the SettingsViewController project and
