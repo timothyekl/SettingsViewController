@@ -1,4 +1,5 @@
 = SettingsViewController =
+
 Tim Ekl, 2011
 
 This project is meant to provide a simple drop-in solution for providing
@@ -16,6 +17,7 @@ is notably missing several features supported by the Apple Settings app or
 other in-app settings implementations. Contributions are welcome.
 
 == Adding a SettingsViewController to your app ==
+
 Placing a SettingsViewController in your application is as simple as one
 class and one method. After cloning the SettingsViewController project and
 adding its files to Xcode, all you need to do is:
