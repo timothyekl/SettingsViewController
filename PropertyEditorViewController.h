@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@class Setting;
+#import "Setting.h"
 
 @interface PropertyEditorViewController : UIViewController <UITextFieldDelegate> {
 @private
@@ -32,5 +32,10 @@
  * Create a new property editor with the given Setting.
  */
 - (id)initWithSetting:(Setting *)setting;
+
+/**
+ * Get the UIKeyboardType for the given SettingValueType.
+ */
+- (UIKeyboardType)keyboardTypeForSettingValueType:(SettingValueType)valueType;
 
 @end

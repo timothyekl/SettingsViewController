@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum {
+    SettingValueTypeString,
+    SettingValueTypeDecimal
+} SettingValueType;
+
 /**
  * Encapsulates a single setting displayed in a SettingsViewController. This
  * class stores a large amount of information about one setting to display and
@@ -24,6 +29,7 @@
     BOOL _enabled;
     BOOL _secure;
     BOOL _shouldShowDisclosure;
+    SettingValueType _valueType;
 }
 
 /**
@@ -73,6 +79,12 @@
  * Whether this setting should show a disclosure indication when displayed.
  */
 @property (nonatomic, assign) BOOL shouldShowDisclosure;
+
+/**
+ * The type of the value this setting takes on. Defaults to a string
+ * (SettingValueTypeString).
+ */
+@property (nonatomic, assign) SettingValueType valueType;
 
 /**
  * Create a new Setting object with the given attributes. This Setting will

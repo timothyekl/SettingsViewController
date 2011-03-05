@@ -8,8 +8,6 @@
 
 #import "PropertyEditorViewController.h"
 
-#import "Setting.h"
-
 @implementation PropertyEditorViewController
 
 @synthesize propertyField = _propertyField;
@@ -36,7 +34,14 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
+    self.propertyField.keyboardType = [self keyboardTypeForSettingValueType:self.setting.valueType];
     [self.propertyField becomeFirstResponder];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    
+    [self.setting performChangeCallbackWithValue:self.propertyField.text];
 }
 
 - (void)dealloc {
@@ -53,6 +58,16 @@
     
     [self.navigationController popViewControllerAnimated:YES];
     return YES;
+}
+
+#pragma mark - Helper methods
+
+- (UIKeyboardType)keyboardTypeForSettingValueType:(SettingValueType)valueType {
+    switch(valueType) {
+        case SettingValueTypeString: return UIKeyboardTypeASCIICapable;
+        case SettingValueTypeDecimal: return UIKeyboardTypeDecimalPad;
+        default: return UIKeyboardTypeDefault;
+    }
 }
 
 @end

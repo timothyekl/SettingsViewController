@@ -19,6 +19,7 @@
 @synthesize enabled = _enabled;
 @synthesize secure = _secure;
 @synthesize shouldShowDisclosure = _shouldShowDisclosure;
+@synthesize valueType = _valueType;
 
 - (id)initWithTitle:(NSString *)title target:(id)target onValue:(SEL)value onAction:(SEL)action onChange:(SEL)callback {
     if((self = [super init])) {
@@ -32,6 +33,7 @@
         self.enabled = YES;
         self.secure = NO;
         self.shouldShowDisclosure = NO;
+        self.valueType = SettingValueTypeString;
     }
     return self;
 }
